@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="367.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.malchrosoft.TableauController">
+	<stylesheets>
+		<URL value="@tableau.css" />
+	</stylesheets>
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ToolBar prefHeight="32.0" prefWidth="600.0">
+              <items>
+                <Button mnemonicParsing="false" text="Test" />
+              </items>
+            </ToolBar>
+            <Canvas id="principalCanvas" height="362.0" styleClass="mainCanvas" width="600.0">
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </Canvas>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
